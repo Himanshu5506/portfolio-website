@@ -1,56 +1,57 @@
-/* Reset default styles */
+/*  default  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    url('./images/background.jpg');
+    color: #555;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-/* Form container styles */
+/* Form  */
 form {
-    background-color: #ffffff;
+    color: whitesmoke;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
-/* Label styles */
+/* Label  */
 label {
     font-weight: bold;
 }
 
-/* Input field styles */
+/* Input  */
 input[type="text"], input[type="submit"] {
     width: calc(100% - 20px);
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #d00c0c;
     border-radius: 4px;
     font-size: 14px;
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #333; 
     color: white;
     border: none;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #555; 
 }
 
-/* Responsive adjustments */
+/* adjustments */
 @media screen and (max-width: 400px) {
     form {
         width: 90%;
